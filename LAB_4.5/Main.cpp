@@ -35,8 +35,8 @@ int main()
 		if ((a > R && b < R) && (pow(y, 2) <= pow(R, 2) - pow(x, 2) && y >= -b && y < 0 && x <= 0 && x >= -R) ||
 			(pow(y, 2) > (pow(R, 2) - pow(x, 2)) && y <= b && y > 0 && x < R && x <= a))
 
-			cout << setw(8) << setprecision(4) << "x =" << x << " "
-			<< setw(8) << setprecision(4) << "y =" << y << " " << "yes" << endl;
+			cout << setw(8) << setprecision(4) << x << " "
+			<< setw(8) << setprecision(4) << y << " " << "yes" << endl;
 		else
 			cout << setw(8) << setprecision(4) << x << " "
 			<< setw(8) << setprecision(4) << y << " " << "no" << endl;
